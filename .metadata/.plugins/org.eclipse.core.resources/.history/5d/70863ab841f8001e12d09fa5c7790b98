@@ -1,0 +1,29 @@
+package com.example.aggregatorservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@SpringBootApplication
+@RestController
+public class AggregatorServiceApplication {
+
+   
+
+    public static void main(String[] args) {
+        SpringApplication.run(AggregatorServiceApplication.class, args);
+        
+    }
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+    @Bean
+    public AsyncRestTemplate asyncRestTemplate() {
+        return new AsyncRestTemplate();
+    }
+  
+}

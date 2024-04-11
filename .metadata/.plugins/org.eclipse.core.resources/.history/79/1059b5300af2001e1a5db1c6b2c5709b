@@ -1,0 +1,5 @@
+package com.example.aggregatorservice.model;
+
+public class AggregatedOrder {
+
+}

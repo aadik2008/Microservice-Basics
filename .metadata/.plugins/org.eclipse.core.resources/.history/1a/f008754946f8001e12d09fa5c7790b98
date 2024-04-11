@@ -1,0 +1,5 @@
+package com.example.serviceB.controller;
+
+public class ServiceBController {
+
+}

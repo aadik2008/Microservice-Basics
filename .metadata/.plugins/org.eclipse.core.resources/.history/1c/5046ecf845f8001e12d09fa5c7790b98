@@ -1,0 +1,5 @@
+package com.example.serviceA.controller;
+
+public class ServiceAController {
+
+}
