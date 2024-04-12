@@ -1,9 +1,0 @@
-package com.example.orderservice.model;
-
-
-public class Order {
-    private Long id;
-    private Product product;
-
-    // getters and setters
-}

@@ -1,4 +1,0 @@
-spring.application.name=aggregator-service
-product.service.url=http://localhost:8081
-order.service.url=http://localhost:8082
-

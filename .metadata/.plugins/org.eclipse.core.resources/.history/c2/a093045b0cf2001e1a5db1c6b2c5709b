@@ -1,9 +1,0 @@
-package com.example.aggregatorservice.model;
-
-public class AggregatedOrder {
-    private Long id;
-    private Product product;
-    private int quantity;
-
-    // getters and setters
-}
